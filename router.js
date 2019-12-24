@@ -6,7 +6,7 @@ import sports from '~/views/Sports'
 import recipes from '~/views/Recipes/Recipes'
 import ME_Recipes from '~/views/Recipes/ME_Recipes'
 import Single_Recipe from '~/views/Recipes/Single_Recipe'
-import Article from '~/views/Article'
+import Article from '~/views/Article.vue'
 // import sports from '~/views/Sports'
 
 Vue.use(Router)
