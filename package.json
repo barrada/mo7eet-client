@@ -1,0 +1,29 @@
+{
+  "name": "Mo7eet",
+  "version": "1.0.0",
+  "description": "Find the latest news and trends on, sorts,tv,art,business,entertainment,technology and more",
+  "author": "Ahmed Barrada",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "material-design-icons-iconfont": "^5.0.1",
+    "moment": "^2.24.0",
+    "nuxt": "^2.0.0",
+    "vue-infinite-loading": "^2.4.4",
+    "vue-moment": "^4.1.0",
+    "vue-social-sharing": "^2.4.7"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.7.95",
+    "@nuxtjs/router": "^1.5.0",
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
