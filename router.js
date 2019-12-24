@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 import home from '~/components/HelloWorld'
 import sports from '~/views/Sports'
-import recipes from '~/views/Recipes/recipes'
+import recipes from '~/views/Recipes/Recipes'
 import ME_Recipes from '~/views/Recipes/ME_Recipes'
 import Single_Recipe from '~/views/Recipes/Single_Recipe'
 import Article from '~/views/Article'
