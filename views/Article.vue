@@ -2,7 +2,7 @@
   <div class="col-5 mx-auto">
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
-    <h1>{{post.title}}</h1> {{secret}}
+    <h1>{{post.title}}</h1> 
     <v-row>
       <v-col>
         <div class>{{ `${post.post_date}` | moment("from", "now") }}</div>
@@ -54,12 +54,12 @@ export default {
   data() {
     return {
       // gallery:this.gallery,
-      secret:process.env.VUE_APP_BASE_URL,
       uploads: "https://mo7eet-server.herokuapp.com/uploads"
     };
   },
   methods: {},
   mounted() {
+    
     console.log("length is " + this.gallery.length);
   }
 };

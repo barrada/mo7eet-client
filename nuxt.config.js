@@ -5,7 +5,7 @@ export default {
   mode: 'universal',
   env: {
     // baseUrl: process.env.BASE_URL || 'http://localhost:3000'
-    baseUrl: process.env.VUE_APP_BASE_URL || 'http://localhost:3000'
+    baseUrl: process.env.NODE_ENV == 'production' ? 'https://mo7eet-nuxt-client.herokuapp.com/' : 'http://localhost:3000'
   },
   /*
   ** Headers of the page
