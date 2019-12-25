@@ -70,6 +70,13 @@ export default {
   ** https://github.com/nuxt-community/vuetify-module
   */
   vuetify: {
+    defaultAssets: {
+      font: true,
+      icons: 'md'
+    },
+    icons: {
+      iconfont: 'md',
+    },
     customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: true,
