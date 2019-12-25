@@ -4,7 +4,8 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   mode: 'universal',
   env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+    // baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+    baseUrl: process.env.VUE_APP_BASE_URL || 'http://localhost:3000'
   },
   /*
   ** Headers of the page
