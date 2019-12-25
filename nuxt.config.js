@@ -38,6 +38,7 @@ export default {
     {src: '~/plugins/SocialSharing'},
     {src: '~/plugins/InfiniteLoading'},
     {src: '~/plugins/Moment'},
+    {src: '~/plugins/VueGtag'},
     // {src: '~/plugins/InfiniteLoading', mode:'client'},
    
   ],
