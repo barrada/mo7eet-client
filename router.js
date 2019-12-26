@@ -51,7 +51,7 @@ export function createRouter() {
 				component: () =>
 					// import(/* webpackChunkName: "about" */ "./views/Recipes/Single_Recipe.vue"),
 					Single_Recipe,
-					props:true,
+					// props:true,
 					props:(route) => ({ slug: route.params.slug })       
 			},
 			{
@@ -60,7 +60,7 @@ export function createRouter() {
 				component: () =>
 					// import(/* webpackChunkName: "about" */ "./views/Recipes/Single_Recipe.vue"),
 					Article,
-					props:true,
+					// props:true,
 					props:(route) => ({ slug: route.params.slug })       
 			},
     ]

@@ -67,7 +67,7 @@
 											>
 														<v-col id="ingredients-1" cols="12" md="5" class="">
 																
-														<v-items-list  v-for="(ing,$index) in sub_details.ingredients" v-if="$index < Math.floor(sub_details.ingredients.length / 2)" class=" pt-1 mb-1">		
+														<v-items-list  v-for="(ing,$index) in sub_details.ingredients" :key="$index" v-if="$index < Math.floor(sub_details.ingredients.length / 2)" class=" pt-1 mb-1">		
 																<v-icon color="#C1C1C1" style="font-size:20px"> radio_button_unchecked </v-icon>					
 																					<span class="ml-1" style="font-size:15px;">	{{ing}}</span>	<br>										
 														</v-items-list>	
@@ -76,7 +76,7 @@
 								
 															<v-col id="ingredients-2" cols="12" md="5" class="">
 																
-																			<v-items-list  v-for="(ing,$index) in sub_details.ingredients" v-if="$index > Math.floor(sub_details.ingredients.length / 2)" class=" pt-1 mb-1">		
+																			<v-items-list  v-for="(ing,$index) in sub_details.ingredients" :key="$index" v-if="$index > Math.floor(sub_details.ingredients.length / 2)" class=" pt-1 mb-1">		
 																<v-icon color="#C1C1C1" style="font-size:20px"> radio_button_unchecked </v-icon>					
 																					<span class="ml-1" style="font-size:15px;">	{{ing}}</span>	<br>										
 														</v-items-list>	
@@ -109,7 +109,7 @@
 						</div>
 					</v-row>
 							
-						 <v-col id="directions"  cols="12"  v-for="(dir,$index) in sub_details.directions" class="mb-3 mt-3">
+						 <v-col id="directions"  cols="12"  v-for="(dir,$index) in sub_details.directions" :key="$index" class="mb-3 mt-3">
 										<v-items-list class=" pt-1 mb-1">		
 							<span color="#C1C1C1" style="font-size:14px;border:3px solid #E9E9E9;border-radius:60px;" class="ml-2 pr-2 pl-1 pb-1"> {{$index + 1}} </span>					
 												<span class="ml-1" style="font-size:15px;">	{{dir}}</span>											
