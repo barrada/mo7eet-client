@@ -17,15 +17,16 @@
         ></share>
       </v-col>
     </v-row>
-
-    <v-img
-      v-if="gallery == false"
+    <div   v-if="gallery == false"> 
+      <v-img    
       :src="`${uploads}${post.original_image}`"
       width="100%"
       class="my-5"
     ></v-img>
-
-    <!-- <v-carousel v-else height="300" hide-delimiter-background>
+    </div>
+    
+    <div v-else>
+      <v-carousel  height="300" hide-delimiter-background>
       <v-carousel-item
         v-for="(img, $index) in this.gallery"
         :key="$index"
@@ -33,7 +34,9 @@
         reverse-transition="fade-transition"
         transition="fade-transition"
       ></v-carousel-item>
-    </v-carousel> -->
+    </v-carousel>
+    </div>
+
     {{post.body}}
   </div>
 </template>
