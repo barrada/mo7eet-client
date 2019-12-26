@@ -3,10 +3,10 @@ import Router from 'vue-router'
 
 // import home from '~/components/HelloWorld'
 import home from  '~/views/Recipes/Recipes.vue'
-import sports from '~/views/Sports'
+import sports from '~/views/Sports.vue'
 import recipes from '~/views/Recipes/Recipes.vue'
-import ME_Recipes from '~/views/Recipes/ME_Recipes'
-import Single_Recipe from '~/views/Recipes/Single_Recipe'
+import ME_Recipes from '~/views/Recipes/ME_Recipes.vue'
+import Single_Recipe from '~/views/Recipes/Single_Recipe.vue'
 import Article from '~/views/Article.vue'
 // import sports from '~/views/Sports'
 
