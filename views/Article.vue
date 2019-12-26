@@ -25,7 +25,7 @@
       class="my-5"
     ></v-img>
 
-    <v-carousel v-else height="300" hide-delimiter-background>
+    <!-- <v-carousel v-else height="300" hide-delimiter-background>
       <v-carousel-item
         v-for="(img, $index) in this.gallery"
         :key="$index"
@@ -33,7 +33,7 @@
         reverse-transition="fade-transition"
         transition="fade-transition"
       ></v-carousel-item>
-    </v-carousel>
+    </v-carousel> -->
     {{post.body}}
   </div>
 </template>
