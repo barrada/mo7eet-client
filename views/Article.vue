@@ -3,7 +3,7 @@
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
     <h1>{{post.title}}</h1> 
-    <v-row>
+    <!-- <v-row>
       <v-col>
         <div class>{{ `${post.post_date}` | moment("from", "now") }}</div>
       </v-col>
@@ -33,7 +33,7 @@
         reverse-transition="fade-transition"
         transition="fade-transition"
       ></v-carousel-item>
-    </v-carousel>
+    </v-carousel> -->
     {{post.body}}
   </div>
 </template>
