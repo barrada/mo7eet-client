@@ -61,7 +61,7 @@ export default {
   methods: {},
   mounted() {
     
-    console.log("length is " + this.gallery.length);
+    // console.log("length is " + this.gallery.length);
   }
 };
 </script>

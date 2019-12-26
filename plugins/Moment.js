@@ -11,4 +11,4 @@ Vue.use(require('vue-moment'), {
     moment
 })
 
-console.log(Vue.moment().locale()) //es
+// console.log(Vue.moment().locale()) 
