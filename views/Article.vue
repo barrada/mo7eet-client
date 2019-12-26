@@ -18,7 +18,7 @@
       </v-col>
     </v-row>
 
-    <v-img
+    <!-- <v-img
       v-if="gallery.length <= 1"
       :src="`${uploads}${post.original_image}`"
       width="100%"
@@ -33,7 +33,7 @@
         reverse-transition="fade-transition"
         transition="fade-transition"
       ></v-carousel-item>
-    </v-carousel>
+    </v-carousel> -->
     {{post.body}}
   </div>
 </template>
