@@ -7,7 +7,7 @@
       <v-col>
         <div class>{{ `${post.post_date}` | moment("from", "now") }}</div>
       </v-col>
-      <v-col>
+      <!-- <v-col>
         <share
           class="text-left"
           :link="this.$route.path"
@@ -15,18 +15,17 @@
           :pdesc="post.body.substring(0,100)"
           :tags="post.tags"
         ></share>
-      </v-col>
+      </v-col> -->
     </v-row>
-    <div   v-if="gallery == false"> 
-      <v-img    
+
+    <v-img
+      v-if="gallery == false"
       :src="`${uploads}${post.original_image}`"
       width="100%"
       class="my-5"
     ></v-img>
-    </div>
-    
-    <div v-else>
-      <v-carousel  height="300" hide-delimiter-background>
+
+    <v-carousel v-else height="300" hide-delimiter-background>
       <v-carousel-item
         v-for="(img, $index) in this.gallery"
         :key="$index"
@@ -35,9 +34,10 @@
         transition="fade-transition"
       ></v-carousel-item>
     </v-carousel>
+    <div>
+          {{post.body}}
     </div>
 
-    {{post.body}}
   </div>
 </template>
 
