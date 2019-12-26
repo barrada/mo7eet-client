@@ -24,6 +24,7 @@
 							
 					<v-carousel-item 
 					v-for="(img, $index) in this.gallery"
+					:key="$index"
 					:src="`${uploads}${img}`"
 					reverse-transition="fade-transition"
      		  transition="fade-transition"
