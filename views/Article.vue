@@ -46,8 +46,7 @@ export default {
     share
   },
   async asyncData({ $axios, params }) {
-    // let slug = encodeURIComponent(params.slug);
-    let slug = params.slug;
+    let slug = encodeURIComponent(params.slug);
     const { data } = await $axios.$get(
       `https://mo7eet-server.herokuapp.com/api/post/${slug}`
     );
