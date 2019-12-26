@@ -8,7 +8,7 @@
                       inline-template
 	>
   <div>
-		{{ptitle}}
+		<!-- {{ptitle}} -->
       <!-- <network network="email">
           <i class="fa fa-envelope"></i> Email
       </network> -->

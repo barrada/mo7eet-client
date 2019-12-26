@@ -7,7 +7,7 @@
       <v-col>
         <div class>{{ `${post.post_date}` | moment("from", "now") }}</div>
       </v-col>
-      <!-- <v-col>
+      <v-col>
         <share
           class="text-left"
           :link="this.$route.path"
@@ -15,7 +15,7 @@
           :pdesc="post.body.substring(0,100)"
           :tags="post.tags"
         ></share>
-      </v-col> -->
+      </v-col>
     </v-row>
 
     <v-img
