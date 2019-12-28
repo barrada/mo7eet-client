@@ -244,25 +244,16 @@
 					<!-- get ads - square ad -->
 				 <v-card 
 				 			v-if="($index +  3) % 7 == 0"  align="center" 
-							 class="mx-auto pa-2 pb-0 fill-height d-flex flex-wrap" 
+							 class="mx-auto pa-2 pb-0 fill-height  flex-wrap" 
 							 max-width="400"
 				 >
-
+										<!-- <adsbygoogle/> -->
 								<adsbygoogle               
-									ad-slot="3043867444"            
+									ad-slot="3284019521"            
 								>           
 								</adsbygoogle>
 					 	<!-- <img  src="../../static/images/sqad.png" alt="" width="100%"> -->
 
-						
-						 <v-card-text align="center" justify="center" class=""> 
-							 <!-- <h5 class="mt-2 pa-1" style="background-color:#F5F5F5">إعلان</h5> -->
-							 <!-- <h5 class="mt-2 pa-1" style="background-color:#F5F5F5"></h5> -->
-							
-							
-						
-						
-							 </v-card-text>
 				 </v-card>
        		
 				<!-- loop results -->
