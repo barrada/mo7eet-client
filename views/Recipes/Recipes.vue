@@ -252,7 +252,7 @@
 										/>
 								 <adsbygoogle               
 									ad-slot="3284019521"  
-									ad-format="square"          
+									ad-format="rectangle"          
 								>           
 								</adsbygoogle>
 					 	<!-- <img  src="../../static/images/sqad.png" alt="" width="100%"> -->
