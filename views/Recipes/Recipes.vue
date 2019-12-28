@@ -245,10 +245,11 @@
 				 <v-card 
 				 			v-if="($index +  3) % 7 == 0"  align="center" 
 							 class="mx-auto pa-2 pb-0 fill-height d-flex flex-wrap" 
-							 max-width="400">
+							 max-width="400"
+				 >
 
 								<adsbygoogle               
-									ad-slot="3284019521"            
+									ad-slot="3043867444"            
 								>           
 								</adsbygoogle>
 					 	<!-- <img  src="../../static/images/sqad.png" alt="" width="100%"> -->
