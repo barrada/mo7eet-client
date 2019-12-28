@@ -248,11 +248,11 @@
 							 max-width="400"
 						
 				 >
-										<adsbygoogle
-										/>
+										<!-- <adsbygoogle
+										/> -->
 								 <adsbygoogle               
 									ad-slot="3284019521"  
-									ad-format="rectangle"          
+									ad-format="square"          
 								>           
 								</adsbygoogle>
 					 	<!-- <img  src="../../static/images/sqad.png" alt="" width="100%"> -->
