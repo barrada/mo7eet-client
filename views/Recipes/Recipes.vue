@@ -246,11 +246,13 @@
 				 			v-if="($index +  3) % 7 == 0"  align="center" 
 							 class="mx-auto pa-2 pb-0 fill-height   flex-wrap" 
 							 max-width="400"
-							 max-height="400"
+						
 				 >
-										<!-- <adsbygoogle/> -->
-								<adsbygoogle               
-									ad-slot="3284019521"            
+										<adsbygoogle
+										/>
+								 <adsbygoogle               
+									ad-slot="3284019521"  
+									ad-format="square"          
 								>           
 								</adsbygoogle>
 					 	<!-- <img  src="../../static/images/sqad.png" alt="" width="100%"> -->
