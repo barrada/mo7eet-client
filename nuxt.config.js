@@ -57,7 +57,11 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    // google adsense
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-1951746776327943'
+    }]
     
   ],
   /*

@@ -192,7 +192,14 @@
 
 			<!-- LEFT last column - ads or most viewed -->
     <v-col lg="2" cols="12"   class="pr-4 pt-2 mt-3  hidden-md-and-down" style="border:6px #D6D6D6  solid;">
-					<img src="../../static/images/advertise.jpg" alt="" width="100%" height="440px">
+
+					<!-- left vertical ad -->
+					<adsbygoogle               
+             ad-slot="7370604197"            
+       	  >           
+          </adsbygoogle>
+					<!-- <img src="../../static/images/advertise.jpg" alt="" width="100%" height="440px"> -->
+
 				<!-- <h4 class="ml-3" style="color:#FFFFFF; background-color:orange;padding: 5px 0;text-align:center">الأكثر مشاهده اليوم </h4>
         <v-row style=""> 
             <v-col  lg="auto" class="col-lg-3 ml-2 col-md-2"><img :src="`https://via.placeholder.com/300`" alt="" width="50" height="50"></v-col>
@@ -234,13 +241,18 @@
 	
 			<v-col v-for="(recipe,$index) in list" class="pa-1 col-md-3 col-xs-1 col-lg-3 col-sm-4">
 				
-					<!-- get ads -->
+					<!-- get ads - square ad -->
 				 <v-card 
 				 			v-if="($index +  3) % 7 == 0"  align="center" 
 							 class="mx-auto pa-2 pb-0 fill-height d-flex flex-wrap" 
 							 max-width="400">
-					 
-					 	<img  src="../../static/images/sqad.png" alt="" width="100%">
+
+								<adsbygoogle               
+									ad-slot="3284019521"            
+								>           
+								</adsbygoogle>
+					 	<!-- <img  src="../../static/images/sqad.png" alt="" width="100%"> -->
+
 						
 						 <v-card-text align="center" justify="center" class=""> 
 							 <!-- <h5 class="mt-2 pa-1" style="background-color:#F5F5F5">إعلان</h5> -->

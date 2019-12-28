@@ -24,7 +24,11 @@
         xs12
       >
         <h2 class="headline font-weight-bold mb-3">محيط</h2>
-
+        <adsbygoogle
+               
+             ad-slot="3043867444"                  
+        >           
+        </adsbygoogle>
         
       </v-flex>
 
