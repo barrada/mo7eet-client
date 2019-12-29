@@ -411,6 +411,12 @@ created(){
 				this.page=1
 			}	
 	
+},
+head(){
+	return{
+		title:'وصفات طهي'
+
+	}
 }
 }
 </script>
