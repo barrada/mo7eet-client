@@ -403,6 +403,10 @@ created(){
 				this.page=1
 			}	
 	
+},head(){
+	return{
+		title: 'رياضه'
+	}
 }
 }
 </script>

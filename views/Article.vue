@@ -1,5 +1,5 @@
 <template>
-  <div class="col-5 mx-auto">
+  <div class="col-5 xs-12 mx-auto">
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
     <h1>{{post.title}}</h1> 
@@ -34,7 +34,7 @@
         transition="fade-transition"
       ></v-carousel-item>
     </v-carousel>
-    
+
     <div>
           {{post.body}}
     </div>
@@ -58,7 +58,7 @@ export default {
     
     console.log(gallery)
    
-    return { post: data[0], gallery: gallery };
+    return { post: data[0], gallery: gallery,title:data[0].title };
   },
   data() {
     return {
@@ -70,6 +70,11 @@ export default {
   mounted() {
     
     // console.log("length is " + this.gallery.length);
+  },
+  head(){
+    return{
+      title:this.title
+    }
   }
 };
 </script>

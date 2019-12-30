@@ -152,13 +152,14 @@ export default {
 			// this.sub_details=	JSON.parse(this.data.sub_details)
 			// this.gallery=JSON.parse(this.data.gallery_images)
 				// sub_details=	JSON.parse(data[0].sub_details)
-		return { post: data[0], sub_details: JSON.parse(data[0].sub_details),gallery:JSON.parse(data[0].gallery_images) }
+				
+		return { post: data[0], sub_details: JSON.parse(data[0].sub_details),gallery:JSON.parse(data[0].gallery_images),title:data[0].title }
 			
 },
 	data(){
 		return {		
 			post:this.post,
-			slug:this.slug,
+			slug:this.slug,		
 			sub_details:this.sub_details,	
 			gallery:this.gallery,
 			ings_length:this.ings_length,
@@ -175,6 +176,11 @@ export default {
 		// 				this.gallery=JSON.parse(this.post.gallery_images)						
 		// })
 
+	},
+	head(){
+		return{
+			title:'طريقه عمل ' + this.title
+		}
 	}
 	
 }
