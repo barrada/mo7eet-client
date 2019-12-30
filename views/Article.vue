@@ -64,18 +64,22 @@ export default {
   },
   data() {
     return {
+      date:this.date,
+      title:this.title,
+      thumbnail:this.thumbnail,
+      url:this.url,
       // gallery:this.gallery,
       uploads: "https://mo7eet-server.herokuapp.com/uploads",
       structuredData: {
         "@context": "http://schema.org",
         "@type": "Article",
         "author": "محيط",
-        "datePublished": this.date,
-        "headline": this.title,
-        "image": this.thumbnail,
+        "datePublished": date,
+        "headline": title,
+        "image": thumbnail,
         "publisher": 'محيط',
-        "dateModified": this.date,
-        "mainEntityOfPage":this.url,
+        "dateModified": date,
+        "mainEntityOfPage":url,
         // More structured data...
       },
     };
