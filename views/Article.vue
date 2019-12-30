@@ -65,7 +65,12 @@ export default {
   data() {
     return {
       // gallery:this.gallery,
-      uploads: "https://mo7eet-server.herokuapp.com/uploads"
+      uploads: "https://mo7eet-server.herokuapp.com/uploads",
+      structuredData: {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        // More structured data...
+      },
     };
   },
   methods: {},
@@ -91,7 +96,9 @@ export default {
       ],
       link:[
         {rel:'canonical',href:this.url}
-      ]
+      ],
+      __dangerouslyDisableSanitizers: ['script'],
+      script: [{ innerHTML: JSON.stringify(this.structuredData), type: 'application/ld+json' }]
     }
   }
 };
