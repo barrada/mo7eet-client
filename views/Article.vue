@@ -74,12 +74,12 @@ export default {
         "@context": "http://schema.org",
         "@type": "Article",
         "author": "محيط",
-        "datePublished": date,
-        "headline": title,
-        "image": thumbnail,
+        "datePublished": this.date,
+        "headline": this.title,
+        "image": this.thumbnail,
         "publisher": 'محيط',
-        "dateModified": date,
-        "mainEntityOfPage":url,
+        "dateModified": this.date,
+        "mainEntityOfPage":this.url,
         // More structured data...
       },
     };
