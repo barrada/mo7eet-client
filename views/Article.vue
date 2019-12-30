@@ -1,5 +1,5 @@
 <template>
-  <div class="col-5 xs-12 mx-auto">
+  <div class="col-5 xs-12  mx-auto">
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
     <h1>{{post.title}}</h1> 
@@ -51,6 +51,8 @@ export default {
   },
   async asyncData({ $axios, params }) {
     let slug = encodeURIComponent(params.slug);
+    let uploads= "https://mo7eet-server.herokuapp.com/uploads"
+    let url = process.env.baseUrl +'/' +slug
     const { data } = await $axios.$get(
       `https://mo7eet-server.herokuapp.com/api/post/${slug}`
     );
@@ -58,7 +60,7 @@ export default {
     
     console.log(gallery)
    
-    return { post: data[0], gallery: gallery,title:data[0].title };
+    return { post: data[0], gallery: gallery,title:data[0].title,descritpion:data[0].body.substring(0,100) + '...',thumbnail:uploads+data[0].thumbnail,url:url };
   },
   data() {
     return {
@@ -73,7 +75,23 @@ export default {
   },
   head(){
     return{
-      title:this.title
+      title:this.title,
+      meta:[
+         { hid: 'description', name: 'description', content: this.descritpion },
+         { hid:'name',name:'title', itemprop: 'title', content:this.title},
+         { hid:'description',description:'description', itemprop: 'description', content: this.descritpion},
+         { hid:'image',name:'image', itemprop: 'image', content:this.thumbnail},
+         { hid:'og:description',name:'og:description', property: 'og:description', content:this.descritpion},
+         { hid:'og:url',name:'og:url', property: 'og:url', content:this.url},
+         { hid:'og:image',name:'og:image', property: 'og:image', content:this.thumbnail},
+         { hid:'twitter:card',name:'twitter:card', content:'summary_large_image'},
+         { hid:'twitter:title',name:'twitter:title', content:this.title},
+         { hid:'twitter:description',name:'twitter:description', content:this.descritpion},
+         { hid:'twitter:image',name:'twitter:image', content:this.thumbnail},
+      ],
+      link:[
+        {rel:'canonical',href:this.url}
+      ]
     }
   }
 };
