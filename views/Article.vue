@@ -63,23 +63,19 @@ export default {
     return { post: data[0], gallery: gallery,title:data[0].title,descritpion:data[0].body.substring(0,100) + '...',thumbnail:uploads+data[0].thumbnail,url:url,date:data[0].post_date };
   },
   data() {
-    return {
-      date:this.date,
-      title:this.title,
-      thumbnail:this.thumbnail,
-      url:this.url,
+    return {     
       // gallery:this.gallery,
       uploads: "https://mo7eet-server.herokuapp.com/uploads",
       structuredData: {
         "@context": "http://schema.org",
         "@type": "Article",
         "author": "محيط",
-        "datePublished": this.date,
-        "headline": this.title,
-        "image": this.thumbnail,
+        datePublished: this.date,
+        headline: this.title,
+        image: this.thumbnail,
         "publisher": 'محيط',
-        "dateModified": this.date,
-        "mainEntityOfPage":this.url,
+        dateModified: this.date,
+        mainEntityOfPage:this.url,
         // More structured data...
       },
     };
