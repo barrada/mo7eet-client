@@ -116,7 +116,7 @@ export default {
             "image": "${this.thumbnail}",
             "publisher": "محيط",
             "dateModified": "${this.date}",
-            "mainEntityOfPage":"${this.url}",
+            "mainEntityOfPage":"${this.url}"
           }`, 
           type: 'application/ld+json' 
         }
