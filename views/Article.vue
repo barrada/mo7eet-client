@@ -60,24 +60,12 @@ export default {
     
     console.log(gallery)
    
-    return { post: data[0], gallery: gallery,title:data[0].title,bodySEO:data[0].body,descritpion:data[0].body.substring(0,100) + '...',thumbnail:uploads+data[0].thumbnail,url:url,date:data[0].post_date,keywords:data[0].keywords };
+    return { post: data[0], gallery: gallery,title:data[0].title,bodySEO:data[0].body,tags:data[0].tags,descritpion:data[0].body.substring(0,100) + '...',thumbnail:uploads+data[0].thumbnail,url:url,date:data[0].post_date,keywords:data[0].keywords };
   },
   data() {
     return {     
       // gallery:this.gallery,
-      uploads: "https://mo7eet-server.herokuapp.com/uploads",
-      structuredData: {
-        "@context": "http://schema.org",
-        "@type": "Article",
-        "author": "محيط",
-        "datePublished": this.date,
-        "headline": this.title,
-        "image": this.thumbnail,
-        "publisher": 'محيط',
-        "dateModified": this.date,
-        "mainEntityOfPage":this.url,
-        // More structured data...
-      },
+      uploads: "https://mo7eet-server.herokuapp.com/uploads",     
     };
   },
   methods: {},
@@ -90,6 +78,7 @@ export default {
       title:this.title,
       meta:[
          { hid: 'description', name: 'description', content: this.descritpion },
+         { hid: 'keywords', name: 'keywords', content: this.tags },
          { hid:'name',name:'title', itemprop: 'title', content:this.title},
          { hid:'description',description:'description', itemprop: 'description', content: this.descritpion},
          { hid:'image',name:'image', itemprop: 'image', content:this.thumbnail},
