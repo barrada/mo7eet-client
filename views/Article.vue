@@ -70,12 +70,12 @@ export default {
         "@context": "http://schema.org",
         "@type": "Article",
         "author": "محيط",
-        datePublished: this.date,
-        headline: this.title,
-        image: this.thumbnail,
+        "datePublished": this.date,
+        "headline": this.title,
+        "image": this.thumbnail,
         "publisher": 'محيط',
-        dateModified: this.date,
-        mainEntityOfPage:this.url,
+        "dateModified": this.date,
+        "mainEntityOfPage":this.url,
         // More structured data...
       },
     };
@@ -104,7 +104,7 @@ export default {
       link:[
         {rel:'canonical',href:this.url}
       ],
-      __dangerouslyDisableSanitizers: ['script'],
+      // __dangerouslyDisableSanitizers: ['script'],
       script: [{ innerHTML: JSON.stringify(this.structuredData), type: 'application/ld+json' }]
     }
   }
