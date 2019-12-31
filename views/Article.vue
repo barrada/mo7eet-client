@@ -122,7 +122,7 @@ export default {
                 "url": "http://mo7eet.com/logo.jpg"
               }
             },
-            "articleBody": "${this.body}"
+            "articleBody": "${this.body}",
             "dateModified": "${this.date}",
             "mainEntityOfPage":"${this.url}"
           }`, 
