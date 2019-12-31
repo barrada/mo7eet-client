@@ -111,12 +111,12 @@ export default {
             "@context": "http://schema.org",
             "@type": "Article",
             "author": "محيط",
-            "datePublished": ${this.date},
-            "headline": ${this.title},
-            "image": ${this.thumbnail},
+            "datePublished": "${this.date}",
+            "headline": "${this.title}",
+            "image": "${this.thumbnail}",
             "publisher": 'محيط',
-            "dateModified": ${this.date},
-            "mainEntityOfPage":${this.url},
+            "dateModified": "${this.date}",
+            "mainEntityOfPage":"${this.url}",
           }`, 
           type: 'application/ld+json' 
         }
