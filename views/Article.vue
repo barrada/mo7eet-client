@@ -1,5 +1,7 @@
 <template>
-  <div cols="12" md="5" lg="5" class="mx-auto">
+  <div>
+    <v-row>
+      <v-col  cols="12" md="5" lg="5" class="mx-auto">
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
     <h1>{{post.title}}</h1> 
@@ -38,7 +40,8 @@
     <div>
           {{post.body}}
     </div>
-
+        </v-col>
+    </v-row>
   </div>
 </template>
 
