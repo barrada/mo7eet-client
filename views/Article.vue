@@ -114,7 +114,7 @@ export default {
             "datePublished": "${this.date}",
             "headline": "${this.title}",
             "image": "${this.thumbnail}",
-            "publisher": 'محيط',
+            "publisher": "محيط",
             "dateModified": "${this.date}",
             "mainEntityOfPage":"${this.url}",
           }`, 
