@@ -1,5 +1,5 @@
 <template>
-  <div class="col-5 xs-12  mx-auto">
+  <div class="col-12 md-5 lg-5 mx-auto">
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
     <h1>{{post.title}}</h1> 
