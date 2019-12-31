@@ -60,7 +60,7 @@ export default {
     
     console.log(gallery)
    
-    return { post: data[0], gallery: gallery,title:data[0].title,descritpion:data[0].body.substring(0,100) + '...',thumbnail:uploads+data[0].thumbnail,url:url,date:data[0].post_date };
+    return { post: data[0], gallery: gallery,title:data[0].title,body:data[0].body,descritpion:data[0].body.substring(0,100) + '...',thumbnail:uploads+data[0].thumbnail,url:url,date:data[0].post_date };
   },
   data() {
     return {     
@@ -114,7 +114,15 @@ export default {
             "datePublished": "${this.date}",
             "headline": "${this.title}",
             "image": "${this.thumbnail}",
-            "publisher": "محيط",
+            "publisher": {
+              "@type": "Organization",
+              "name": "محيط",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "http://mo7eet.com/logo.jpg"
+              }
+            },
+            "articleBody": "${this.body}"
             "dateModified": "${this.date}",
             "mainEntityOfPage":"${this.url}"
           }`, 
