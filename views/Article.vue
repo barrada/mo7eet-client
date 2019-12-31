@@ -1,7 +1,14 @@
 <template>
   <div>
     <v-row>
-      <v-col  cols="12" md="5" lg="5" class="mx-auto">
+      <v-col md="3" lg="3"> 
+          	 <adsbygoogle               
+									ad-slot="3284019521"  
+								          
+								>           
+								</adsbygoogle>
+      </v-col>
+      <v-col  cols="12" md="6" lg="6" class="mx-auto">
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
     <h1>{{post.title}}</h1> 
@@ -17,6 +24,13 @@
           :pdesc="post.body.substring(0,100)"
           :tags="post.tags"
         ></share>
+      </v-col>
+        <v-col md="3" lg="3">
+            	 <adsbygoogle               
+									ad-slot="3284019521"  
+							        
+								>           
+								</adsbygoogle>
       </v-col>
     </v-row>
 
