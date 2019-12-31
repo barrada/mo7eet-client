@@ -25,13 +25,7 @@
           :tags="post.tags"
         ></share>
       </v-col>
-        <v-col md="3" lg="3">
-            	 <adsbygoogle               
-									ad-slot="3284019521"  
-							        
-								>           
-								</adsbygoogle>
-      </v-col>
+      
     </v-row>
 
     <v-img
@@ -55,6 +49,13 @@
           {{post.body}}
     </div>
         </v-col>
+          <v-col md="3" lg="3">
+            	 <adsbygoogle               
+									ad-slot="3284019521"  
+							        
+								>           
+								</adsbygoogle>
+      </v-col>
     </v-row>
   </div>
 </template>
