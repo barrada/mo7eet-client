@@ -61,7 +61,7 @@
           {{post.body}}
     </div>
         </v-col>
-          <v-col md="2" lg="3" class="hidden-sm-and-down">
+          <v-col md="2" lg="3" class="hidden-xs-and-down">
             	 <adsbygoogle               
 									ad-slot="7370604197"
                   data-ad-format="vertical"							        
