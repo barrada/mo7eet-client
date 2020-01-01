@@ -44,6 +44,10 @@ export default {
     // {src: '~/plugins/InfiniteLoading', mode:'client'},
    
   ],
+  /* 
+   Middle wear to force SSL - redirect to https
+  */
+  serverMiddleware: ["redirect-ssl"],
   /*
   ** Nuxt.js dev-modules
   */

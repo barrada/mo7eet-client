@@ -58,17 +58,10 @@
         </v-col>
           <v-col md="3" lg="3">
             	 <adsbygoogle               
-									ad-slot="3284019521"							        
+									ad-slot="7370604197"							        
 								>           
 								</adsbygoogle>
-                 <adsbygoogle               
-									ad-slot="3284019521"							        
-								>           
-								</adsbygoogle>
-                 <adsbygoogle               
-									ad-slot="3284019521"							        
-								>           
-								</adsbygoogle>
+  
       </v-col>
     </v-row>
   </div>
