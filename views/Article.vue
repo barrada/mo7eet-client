@@ -3,10 +3,17 @@
     <v-row>
       <v-col md="3" lg="3"> 
           	 <adsbygoogle               
-									ad-slot="3284019521"  
-								          
-								>           
-								</adsbygoogle>
+									ad-slot="3284019521"			          
+						 >           
+						 </adsbygoogle>
+              <adsbygoogle               
+									ad-slot="3284019521"			          
+						 >           
+						 </adsbygoogle>
+              <adsbygoogle               
+									ad-slot="3284019521"			          
+						 >           
+						 </adsbygoogle>
       </v-col>
       <v-col  cols="12" md="6" lg="6" class="mx-auto">
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
@@ -45,14 +52,21 @@
       ></v-carousel-item>
     </v-carousel>
 
-    <div>
+    <div class="mt-5">
           {{post.body}}
     </div>
         </v-col>
           <v-col md="3" lg="3">
             	 <adsbygoogle               
-									ad-slot="3284019521"  
-							        
+									ad-slot="3284019521"							        
+								>           
+								</adsbygoogle>
+                 <adsbygoogle               
+									ad-slot="3284019521"							        
+								>           
+								</adsbygoogle>
+                 <adsbygoogle               
+									ad-slot="3284019521"							        
 								>           
 								</adsbygoogle>
       </v-col>
