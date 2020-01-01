@@ -19,7 +19,7 @@
 						 </adsbygoogle>
         
       </v-col>
-      <v-col  cols="12" sm="10" md="6" lg="6" class="mx-auto">
+      <v-col  cols="12" md="6" lg="6" class="mx-auto">
    
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
@@ -61,7 +61,7 @@
           {{post.body}}
     </div>
         </v-col>
-          <v-col md="2" lg="3" sm="2" class="hidden-xs-and-down">
+          <v-col md="2" lg="3" class="hidden-sm-and-down">
             	 <adsbygoogle               
 									ad-slot="7370604197"
                   data-ad-format="vertical"							        
