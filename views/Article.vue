@@ -4,8 +4,7 @@
       <v-col cols="12" class="hidden-md-and-up">
            <adsbygoogle               
 									ad-slot="3043867444"
-                  data-ad-format="horizontal"	
-                  		          
+                  ad-format="horizontal"	                  		          
 						 >           
 						 </adsbygoogle>
       </v-col>
