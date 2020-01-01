@@ -2,11 +2,11 @@
   <div>
     <v-row>
       <v-col cols="12" class="hidden-md-and-up">
-           <adsbygoogle               
-									ad-slot="3043867444"
-                  ad-format="horizontal"	                  		          
-						 >           
-						 </adsbygoogle>
+             <adsbygoogle
+               
+             ad-slot="3043867444"                  
+        >           
+        </adsbygoogle>
       </v-col>
     </v-row>
     <v-row>
