@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row>
-      <v-col md="3" lg="3" class="hidden-sm-and-down"> 
+      <v-col md="3" lg="3" class="hidden-md-and-down text-left"> 
           	 <adsbygoogle               
 									ad-slot="3284019521"	
                   data-ad-format="vertical"			          
