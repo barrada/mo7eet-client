@@ -3,7 +3,7 @@
          <div class="hidden-lg-and-up">
                	 <adsbygoogle               
 									ad-slot="7370604197"	
-                  data-ad-format="horizontal"			          
+                  		          
 						 >           
 						 </adsbygoogle>
           
