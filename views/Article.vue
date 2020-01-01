@@ -1,13 +1,15 @@
 <template>
   <div>
-         <div class="hidden-lg-and-up">
-               	 <adsbygoogle               
-									ad-slot="7370604197"	
+    <v-row>
+      <v-col cols="12" class="hidden-md-and-up">
+           <adsbygoogle               
+									ad-slot="3043867444"
+                  data-ad-format="horizontal"	
                   		          
 						 >           
 						 </adsbygoogle>
-          
-        </div>
+      </v-col>
+    </v-row>
     <v-row>
       <v-col md="2" lg="3" class="hidden-sm-and-down text-left"> 
           	 <adsbygoogle               
