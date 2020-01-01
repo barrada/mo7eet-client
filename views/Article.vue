@@ -10,14 +10,14 @@
         
       </v-col>
       <v-col  cols="12" md="6" lg="6" class="mx-auto">
-        <v-row class="hidden-lg-and-up">
+        <div class="hidden-lg-and-up">
                	 <adsbygoogle               
 									ad-slot="3043867444"	
                   data-ad-format="horizontal"			          
 						 >           
 						 </adsbygoogle>
           
-        </v-row>
+        </div>
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
     <h1>{{post.title}}</h1> 
