@@ -58,7 +58,8 @@
         </v-col>
           <v-col md="3" lg="3">
             	 <adsbygoogle               
-									ad-slot="7370604197"							        
+									ad-slot="7370604197"
+                  data-ad-format="vertical"							        
 								>           
 								</adsbygoogle>
   
