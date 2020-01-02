@@ -41,6 +41,7 @@
       <v-toolbar-title class="pl-0">
        <router-link :to="{name:'home'}">
           <v-img
+          id=logo
           :src="require('@/assets/logo.png')"
           class="my-3 mr-n2 ml-0"
           contain        
