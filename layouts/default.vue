@@ -46,7 +46,7 @@
           class="my-3 mr-n2 ml-0"
           contain        
                  
-          width="100"
+       
         ></v-img> </router-link>
       
         </v-toolbar-title>
@@ -120,6 +120,7 @@ export default {
       this.$vuetify.theme = true
       this.$vuetify.rtl = true;
       // this.$vuetify.theme.dark = true
+      
     },
 };
 </script>
