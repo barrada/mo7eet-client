@@ -45,7 +45,7 @@
           class="my-3 mr-n2 ml-0"
           contain        
                  
-          width="100%"
+          width="100"
         ></v-img> </router-link>
       
         </v-toolbar-title>
