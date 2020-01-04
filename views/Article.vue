@@ -157,6 +157,7 @@ export default {
 
 <style scoped>
 .container img{
+  width:100%;
   max-width:100% !important;
   height:auto !important
 }
