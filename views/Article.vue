@@ -19,7 +19,7 @@
 						 </adsbygoogle>
         
       </v-col>
-      <v-col  cols="12" md="6" lg="6" class="mx-auto">
+      <v-col id="article" cols="12" md="6" lg="6" class="mx-auto">
    
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
@@ -156,7 +156,10 @@ export default {
 </script>
 
 <style scoped>
-.container img{
+#article{
+  position:relative;
+}
+#article img{
   width:100%;
   max-width:100% !important;
   height:auto !important
