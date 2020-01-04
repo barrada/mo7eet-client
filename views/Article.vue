@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="article">
     <v-row>
       <v-col cols="12" lg="12" md="12" sm="12" class="hidden-md-and-up" style="height:120px;max-height:120px">
              <adsbygoogle
@@ -156,4 +156,8 @@ export default {
 </script>
 
 <style scoped>
+#aritcle img{
+  max-width:100%;
+  height:auto
+}
 </style>
