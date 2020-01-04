@@ -57,7 +57,7 @@
       ></v-carousel-item>
     </v-carousel>
 
-    <div class="mt-5">
+    <div class="mt-5" v-html="post.body">
           {{post.body}}
     </div>
         </v-col>
