@@ -263,7 +263,7 @@
 					<v-img
 						class="white--text"
 						height="200px"
-						:src="`${uploads}${recipe.thumbnail}`"
+						:src="`${recipe.thumbnail}`"
 						width=400
    			  >
 					 
