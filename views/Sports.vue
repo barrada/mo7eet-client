@@ -25,7 +25,7 @@
 									<v-img :src="`${this.featured[0].original_image}`" alt="" width="100%"></v-img>
 									<v-card-text class="">
 										<v-row> <h2  class="mr-3 mt-1">{{featured[0].title}}</h2> </v-row>
-										<v-row class="mr-0 mt-3 pl-2">{{featured[0].body.substring(0,195)}}...</v-row>
+										<v-row class="mr-0 mt-3 pl-2">{{featured[0].excert.substring(0,195)}}...</v-row>
 									</v-card-text>
 										<!-- </router-link> -->
 									<v-card-actions  class="col-12" style="">
@@ -58,7 +58,7 @@
      										 </template>
 													<v-list class="px-2">
 															<!-- <v-list-item>aa</v-list-item> -->
-															<share :link=this.href(this.featured[0].slug) :ptitle=this.featured[0].title :pdesc=this.featured[0].body.substring(0,100) :tags=this.featured[0].tags> </share>
+															<share :link=this.href(this.featured[0].slug) :ptitle=this.featured[0].title :pdesc=this.featured[0].excert.substring(0,100) :tags=this.featured[0].tags> </share>
 															<!-- <img src="../../../public/img/icons/facebook.svg" width="25" alt="" class="ml-2">
 															<img src="../../../public/img/icons/twitter.svg" width="25" alt="" class="ml-2">
 															<img src="../../../public/img/icons/pinterest.svg" width="25" alt="" class="ml-2">
@@ -82,7 +82,7 @@
 														<v-card-text class="pt-0 pr-0">
 																<h3 class="mb-1 mt-1 p-title">{{feat.title.substring(0,40)}}</h3>
 																<span class="text--primary hidden-sm-and-down">
-																		<span class="p-body">{{feat.body.substring(0,80)}} ...</span>																									
+																		<span class="p-body">{{feat.excert.substring(0,80)}} ...</span>																									
 																</span>
 														</v-card-text>
 												<v-card-actions class="pr-0 pl-0 pb-0">
@@ -107,7 +107,7 @@
 				</v-btn>
 			</template>
 		<v-list class="px-2">							
-				<share :link=href(feat.slug)  :ptitle=feat.title :pdesc=feat.body.substring(0,100) :tags=feat.tags> </share>												
+				<share :link=href(feat.slug)  :ptitle=feat.title :pdesc=feat.excert.substring(0,100) :tags=feat.tags> </share>												
 		</v-list>
 	</v-menu>
 					</v-items-list>						
@@ -150,7 +150,7 @@
 					<v-card-text class="">
 							<h3 class="mb-2 p-title">{{feat.title.substring(0,40)}}</h3>
 							<span class="text--primary ">
-								<span class="p-body">{{feat.body.substring(0,85)}} ...</span><br>								
+								<span class="p-body">{{feat.excert.substring(0,85)}} ...</span><br>								
 							</span>
   			  </v-card-text>
 					<!-- <v-card-actions class="align-end"> -->
@@ -176,7 +176,7 @@
 				</v-btn>
 			</template>
 		<v-list class="px-2">							
-				<share :link=href(feat.slug)  :ptitle=feat.title :pdesc=feat.body.substring(0,100) :tags=feat.tags> </share>												
+				<share :link=href(feat.slug)  :ptitle=feat.title :pdesc=feat.excert.substring(0,100) :tags=feat.tags> </share>												
 		</v-list>
 	</v-menu>
 					</v-items-list>
@@ -286,7 +286,7 @@
 					<v-card-text class="">
 							<h3 class="mb-2 p-title">{{recipe.title.substring(0,40)}}</h3>
 							<span class="text--primary ">
-								<span class="p-body">{{recipe.body.substring(0,85)}} ...</span><br>								
+								<span class="p-body">{{recipe.excert.substring(0,85)}} ...</span><br>								
 							</span>
   			  </v-card-text>
 					<!-- <v-card-actions class="align-end"> -->
@@ -321,7 +321,7 @@
 				</v-btn>
 			</template>
 		<v-list class="px-2">							
-				<share :link=href(recipe.slug)  :ptitle=recipe.title :pdesc=recipe.body.substring(0,100) :tags=recipe.tags> </share>												
+				<share :link=href(recipe.slug)  :ptitle=recipe.title :pdesc=recipe.excert.substring(0,100) :tags=recipe.tags> </share>												
 		</v-list>
 	</v-menu>
 					</v-items-list>
