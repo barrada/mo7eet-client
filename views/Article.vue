@@ -158,13 +158,14 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 #article{
   position:relative;
 }
 #article img{
-  width:100%;
+  width:100% !important;
   max-width:100% !important;
   height:auto !important
 }
+
 </style>
