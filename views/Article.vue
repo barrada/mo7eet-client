@@ -40,7 +40,9 @@
       
     </v-row>
 
-    <v-img
+  <!-- featured image and gallery -->
+
+    <!-- <v-img
       v-if="gallery == false"
       :src="`${uploads}${post.original_image}`"
       width="100%"
@@ -55,7 +57,8 @@
         reverse-transition="fade-transition"
         transition="fade-transition"
       ></v-carousel-item>
-    </v-carousel>
+    </v-carousel> -->
+
 
     <div class="mt-5" v-html="post.body">
           {{post.body}}
