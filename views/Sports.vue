@@ -243,11 +243,11 @@
 					<!-- get ads -->
 				 <v-card 
 				 			v-if="($index +  3) % 7 == 0"  align="center" 
-							 class="mx-auto pa-2 pb-0 fill-height d-flex flex-wrap" 
+							 class="mx-auto pa-2 pb-0 fill-height  flex-wrap" 
 							 max-width="400">
 					 
 					 	<!-- <adsbygoogle	/> -->
-						 
+
 					 	 <adsbygoogle               
 									ad-slot="3284019521"  
 									ad-format="rectangle"          
