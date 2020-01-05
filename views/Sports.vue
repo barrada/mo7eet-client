@@ -191,7 +191,7 @@
       <v-spacer></v-spacer>
 
 			<!-- LEFT last column - ads or most viewed -->
-    <v-col lg="2" cols="12"   class="hidden-md-and-down">
+    <v-col lg="2" cols="12"   class="mt-3 hidden-md-and-down">
 				<!-- Left vertical ad -->
 
 						<adsbygoogle               
@@ -246,16 +246,16 @@
 							 class="mx-auto pa-2 pb-0 fill-height d-flex flex-wrap" 
 							 max-width="400">
 					 
-					 	<img  src="../static/images/sqad.png" alt="" width="100%">
+					 	<!-- <adsbygoogle	/> -->
+						 
+					 	 <adsbygoogle               
+									ad-slot="3284019521"  
+									ad-format="rectangle"          
+								>           
+								</adsbygoogle>
+					 	<!-- <img  src="../static/images/sqad.png" alt="" width="100%"> -->
 						
-						 <v-card-text align="center" justify="center" class=""> 
-							 <!-- <h5 class="mt-2 pa-1" style="background-color:#F5F5F5">إعلان</h5> -->
-							 <!-- <h5 class="mt-2 pa-1" style="background-color:#F5F5F5"></h5> -->
-							
-							
 						
-						
-							 </v-card-text>
 				 </v-card>
        		
 				<!-- loop results -->
