@@ -22,7 +22,7 @@
 											   								
 							>
 									<!-- <router-link to="/about"> -->
-									<v-img :src="`${uploads}${this.featured[0].original_image}`" alt="" width="100%"></v-img>
+									<v-img :src="`${this.featured[0].original_image}`" alt="" width="100%"></v-img>
 									<v-card-text class="">
 										<v-row> <h2  class="mr-3 mt-1">{{featured[0].title}}</h2> </v-row>
 										<v-row class="mr-0 mt-3 pl-2">{{featured[0].body.substring(0,195)}}...</v-row>
@@ -76,7 +76,7 @@
 										<v-card :id="`post-${feat.id}`" cols="12" class="" :to="{name:'article',params:{slug:feat.slug}}">
 											<div  class="d-flex flex-no-wrap justify-space-between">													
 													<v-col lg="4" md="4" sm="4"  class="pa-2 " :style="">
-														<v-img  :src="`${uploads}${feat.thumbnail}`"></v-img>
+														<v-img  :src="`${feat.thumbnail}`"></v-img>
 													</v-col>
 													<v-col lg="8">
 														<v-card-text class="pt-0 pr-0">
@@ -137,7 +137,7 @@
 							<v-img
 								class=" white--text"
 								height="200px"
-								:src="`${uploads}${feat.thumbnail}`"
+								:src="`${feat.thumbnail}`"
 								width=100%
 							>					 
 							<v-card-title class="align-end  fill-height"> 						
