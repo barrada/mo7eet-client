@@ -191,8 +191,14 @@
       <v-spacer></v-spacer>
 
 			<!-- LEFT last column - ads or most viewed -->
-    <v-col lg="2" cols="12"   class="pr-4 pt-2 mt-3  hidden-md-and-down" style="border:6px #D6D6D6  solid;">
-					<img src="../static/images/advertise.jpg" alt="" width="100%" height="440px">
+    <v-col lg="2" cols="12"   class="pr-4 pt-2 mt-3  hidden-md-and-down">
+				<!-- Left vertical ad -->
+
+						<adsbygoogle               
+             ad-slot="7370604197"            
+       	  >           
+          </adsbygoogle>
+
 				<!-- <h4 class="ml-3" style="color:#FFFFFF; background-color:orange;padding: 5px 0;text-align:center">الأكثر مشاهده اليوم </h4>
         <v-row style=""> 
             <v-col  lg="auto" class="col-lg-3 ml-2 col-md-2"><img :src="`https://via.placeholder.com/300`" alt="" width="50" height="50"></v-col>
