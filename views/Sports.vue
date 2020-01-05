@@ -191,7 +191,7 @@
       <v-spacer></v-spacer>
 
 			<!-- LEFT last column - ads or most viewed -->
-    <v-col lg="2" cols="12"   class="pr-4 pt-2 mt-3  hidden-md-and-down">
+    <v-col lg="2" cols="12"   class="hidden-md-and-down">
 				<!-- Left vertical ad -->
 
 						<adsbygoogle               
