@@ -19,7 +19,7 @@
 						 </adsbygoogle>
         
       </v-col>
-      <v-col id="article" cols="12" md="6" lg="6" class="mx-auto">
+      <v-col cols="12" md="6" lg="6" class="mx-auto">
    
     <!-- <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span> -->
     <!-- <span>{{ "2019-12-24T10:47:21.000Z" | moment("from", "now") }}</span> -->
@@ -60,7 +60,7 @@
     </v-carousel> -->
 
 
-    <div class="mt-5" v-html="post.body">
+    <div  id="article" class="mt-5" v-html="post.body">
           {{post.body}}
     </div>
         </v-col>
