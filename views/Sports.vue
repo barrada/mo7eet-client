@@ -2,9 +2,9 @@
 <div> 
 
 	<v-row class="mobile_banner hidden-sm-and-up">
-				<v-col cols="12" xs="12" style="height:50px;max-width:400px;width:100%;">
+				<v-col cols="12" xs="12" style="height:50px;max-height:50px">
 						<Adsense						
-						ad-slot="8105488405"
+						ad-slot="6479607628"
 						data-ad-format="horizontal"
 						>
 				</Adsense>
