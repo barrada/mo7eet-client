@@ -4,8 +4,8 @@
 	<v-row class="mobile_banner hidden-sm-and-up">
 				<v-col cols="12">
 						<Adsense
-						style="display:inline-block;width:320px;height:100px"
-						ad-slot="8488631789">
+						style="display:inline-block;width:320px;height:50px"
+						ad-slot="8105488405">
 				</Adsense>
 				</v-col>
 	</v-row>
