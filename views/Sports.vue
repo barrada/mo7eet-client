@@ -5,7 +5,7 @@
 				<v-col cols="12">
 						<Adsense
 						style="display:inline-block;width:320px;height:100px"
-						ad-slot="7370604197">
+						ad-slot="8488631789">
 				</Adsense>
 				</v-col>
 	</v-row>
