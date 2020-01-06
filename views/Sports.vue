@@ -119,6 +119,13 @@
         </v-col>
 
 				<!-- rest featured vertical vcards - only on mobile -->
+					<v-row
+    align="stretch"
+    justify="start"
+    class="mb-6 hidden-sm-and-up"
+		wrap
+    no-gutters				
+  > 
 				<v-col id="restfeat_vcard" xs="12" lg="6" md="6" sm="6" cols="12"  class="pt-0 mb-n4 hidden-sm-and-up">
 					<v-row
 					  v-for="(feat,$index) in restfeat"  style=""
@@ -187,7 +194,7 @@
 				</v-col>		
       </v-row>			
     </v-col>
-		
+			</v-row>
       <v-spacer></v-spacer>
 
 			<!-- LEFT last column - ads or most viewed -->
