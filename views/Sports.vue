@@ -129,7 +129,7 @@
 						no-gutters 
 					>
 						<v-card				
-							class="mx-auto"
+							class="mx-auto d-flex flex-wrap"
    						max-width="400"
 							 	:id="`post-${feat.id}`"
 								:to="{name:'article',params:{slug:feat.slug}}"				 					 
@@ -138,7 +138,8 @@
 								class=" white--text"
 								height="200px"
 								:src="`${feat.thumbnail}`"
-								width="400"
+								max-width=100%
+								width=100%
 							>					 
 							<v-card-title class="align-end  fill-height"> 						
 										<!-- <v-list-item class="pa-0 justify-start mt-n5" style="opacity:0.7;">
