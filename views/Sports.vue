@@ -1,7 +1,7 @@
 <template>
 <div> 
 
-	<div class="mobile_banner xs-only">
+	<div class="mobile_banner hidden-sm-and-up">
 					<Adsense
 					
 						ad-slot="7370604197">
