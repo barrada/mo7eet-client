@@ -2,7 +2,7 @@
 <div> 
 
 	<v-row class="mobile_banner hidden-sm-and-up">
-				<v-col cols="12">
+				<v-col cols="12" xs="12">
 						<Adsense
 						style="height:50px;max-width:400px;width:100%;"
 						ad-slot="8105488405">
