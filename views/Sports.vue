@@ -1,12 +1,14 @@
 <template>
 <div> 
 
-	<div class="mobile_banner hidden-sm-and-up">
-					<Adsense
+	<v-row class="mobile_banner hidden-sm-and-up">
+				<v-col cols="12">
+						<Adsense
 					
 						ad-slot="7370604197">
 				</Adsense>
-	</div>
+				</v-col>
+	</v-row>
 
 	<!-- Featured Results -->
 			<v-row
