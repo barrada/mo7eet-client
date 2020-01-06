@@ -131,7 +131,7 @@
 					>
 						<v-card				
 							class="mx-auto"
-   						max-width="400"
+   						max-width="100%"
 							 	:id="`post-${feat.id}`"
 								:to="{name:'article',params:{slug:feat.slug}}"				 					 
 			  		>
