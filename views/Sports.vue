@@ -1,10 +1,10 @@
 <template>
 <div> 
 
-	<v-row class="mobile_banner hidden-sm-and-up">
-				<v-col cols="12" xs="12" style="height:50px;max-height:50px">
+	<v-row >
+				<v-col cols="12" xs="12" class="mobile_banner hidden-sm-and-up" style="height:100px;max-height:100px">
 						<Adsense						
-						ad-slot="6479607628"
+						ad-slot="6479607628" 
 						data-ad-format="horizontal"
 						>
 				</Adsense>
