@@ -1,17 +1,21 @@
 <template>
 <div> 
 
-	<!-- <Adsense
-    data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-    data-ad-slot="1234567890">
-</Adsense> -->
+	<div class="mobile_banner xs-only">
+					<Adsense
+					
+						ad-slot="7370604197">
+				</Adsense>
+	</div>
+
 	<!-- Featured Results -->
 			<v-row
 		 align="start"        
      class="mb-0 "
-     no-gutters		
+     no-gutters	
+		 
 	>  
-		<v-col lg="10" md="12" xs="12" cols="12" class="" style="background-color:#F3F3F3" >
+		<v-col  lg="10" md="12" xs="12" cols="12" class="" style="background-color:#F3F3F3" >
       <v-row  class="">
           <v-col lg="6" md="6" sm="6" xs="12" cols="12" class="" style="">  						         
 							<v-card
