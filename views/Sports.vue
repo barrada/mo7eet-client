@@ -138,7 +138,7 @@
 								class=" white--text"
 								height="200px"
 								:src="`${feat.thumbnail}`"
-								width=100%
+								width=400
 							>					 
 							<v-card-title class="align-end  fill-height"> 						
 										<!-- <v-list-item class="pa-0 justify-start mt-n5" style="opacity:0.7;">
