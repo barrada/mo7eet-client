@@ -129,8 +129,8 @@
 						no-gutters 
 					>
 						<v-card				
-							class="mx-auto d-flex flex-wrap"
-   						max-width="400"
+							class="mx-auto"
+   						max-width="380"
 							 	:id="`post-${feat.id}`"
 								:to="{name:'article',params:{slug:feat.slug}}"				 					 
 			  		>
