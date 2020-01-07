@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import home from '~/components/HelloWorld'
 // import home from  '~/views/Recipes/Recipes.vue'
 import sports from '~/views/Sports.vue'
+import sports from '~/views/Games.vue'
 import recipes from '~/views/Recipes/Recipes.vue'
 import ME_Recipes from '~/views/Recipes/ME_Recipes.vue'
 import Single_Recipe from '~/views/Recipes/Single_Recipe.vue'
@@ -22,11 +23,20 @@ export function createRouter() {
         component: home
 			},
 			{
-				path: "/الرياضه",
+				path: "/رياضه",
 				name: "sports",     
 				component: () =>
 					// import(/* webpackChunkName: "about" */ "./views/Sports.vue"),
 					sports,
+					// props:true,
+					props:(route) => ({ page: route.query.p })
+			},
+			{
+				path: "/العاب",
+				name: "games",     
+				component: () =>
+					// import(/* webpackChunkName: "about" */ "./views/Sports.vue"),
+					games,
 					// props:true,
 					props:(route) => ({ page: route.query.p })
 			},{
