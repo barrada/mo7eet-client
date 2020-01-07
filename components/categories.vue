@@ -20,7 +20,7 @@
  طهي </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
- <v-list-item to="{name:'games'}" @click="">
+ <v-list-item :to="{name:'games'}" @click="">
           <v-list-item-action>
             <v-icon color="orange">games</v-icon>
           </v-list-item-action>
