@@ -8,7 +8,7 @@
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>
-						الرياضة </v-list-item-title>
+						رياضة </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         <v-list-item :to="{name:'recipes'}" @click="">
@@ -20,13 +20,13 @@
  طهي </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
- <v-list-item to="/test" @click="">
+ <v-list-item to="{name:'games'}" @click="">
           <v-list-item-action>
             <v-icon color="orange">games</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>
- الألعاب </v-list-item-title>
+ العاب </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
  <v-list-item to="/الأخبار" @click="">
