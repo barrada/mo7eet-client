@@ -2,13 +2,14 @@
 <div> 
 
 	<v-row >
-				<v-col cols="12" xs="12" class="mobile_banner hidden-sm-and-up" style="height:100px;max-height:100px">
-						<Adsense						
-						ad-slot="6479607628" 
-						data-ad-format="horizontal"
-						>
-				</Adsense>
-				</v-col>
+				  <v-col cols="12" lg="12" md="12" sm="12" class="hidden-md-and-up" style="height:120px;max-height:120px">
+             <adsbygoogle
+               
+             ad-slot="6479607628" 
+             data-ad-format="horizontal"                 
+        >           
+        </adsbygoogle>
+      </v-col>
 	</v-row>
 
 	<!-- Featured Results -->
@@ -235,7 +236,17 @@
     </v-col>
 
 	</v-row>
-	
+	<!-- Ad on mobile only after featured -->
+		<v-row >
+				  <v-col cols="12" lg="12" md="12" sm="12" class="hidden-sm-and-up" style="height:120px;max-height:120px">
+             <adsbygoogle
+               
+             ad-slot="6479607628" 
+             data-ad-format="horizontal"                 
+        >           
+        </adsbygoogle>
+      </v-col>
+	</v-row>
 	<!-- All Results - Excluding Featured -->
 	
 	<v-row
@@ -251,7 +262,7 @@
 					<!-- get ads -->
 				 <v-card 
 				 			v-if="($index +  3) % 7 == 0"  align="center" 
-							 class="mx-auto pa-2 pb-0 fill-height d-flex  flex-wrap" 
+							 class="mx-auto pa-2 pb-0 fill-height   flex-wrap" 
 							 max-width="400">
 					 
 					 	<!-- <adsbygoogle	/> -->
