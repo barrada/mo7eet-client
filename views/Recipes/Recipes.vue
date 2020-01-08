@@ -1,6 +1,6 @@
 <template>
 <div> 
-	<subtabs/>
+	<!-- <subtabs/> -->
 	<!-- <Adsense
     data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
     data-ad-slot="1234567890">

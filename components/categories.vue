@@ -83,7 +83,7 @@
  السفر </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
- <v-list-item @click="">
+ <v-list-item :to="{name:'technology'}" @click="">
           <v-list-item-action>
             <v-icon color="orange">wifi_tethering</v-icon>
           </v-list-item-action>
