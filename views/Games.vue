@@ -251,7 +251,7 @@
 					<!-- get ads -->
 				 <v-card 
 				 			v-if="($index +  3) % 7 == 0"  align="center" 
-							 class="mx-auto pa-2 pb-0 fill-height  flex-wrap" 
+							 class="mx-auto pa-2 pb-0 fill-height d-flex  flex-wrap" 
 							 max-width="400">
 					 
 					 	<!-- <adsbygoogle	/> -->
@@ -419,7 +419,7 @@ created(){
 	
 },head(){
 	return{
-		title: 'رياضه'
+		title: 'العاب'
 	}
 }
 }
