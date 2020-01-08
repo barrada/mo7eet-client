@@ -13,12 +13,13 @@
     </v-row>
     <v-row>
       <v-col md="2" lg="3" class="hidden-sm-and-down text-left sticky"> 
+        <div class="sticky">
           	 <adsbygoogle               
 									ad-slot="3284019521"	
                   data-ad-format="vertical"			          
 						 >           
 						 </adsbygoogle>
-        
+        </div>
       </v-col>
       <v-col cols="12" md="6" lg="6" class="mx-auto">
    
@@ -65,13 +66,14 @@
           {{post.body}}
     </div>
         </v-col>
-          <v-col md="2" lg="3" class="hidden-sm-and-down sticky">
+          <v-col md="2" lg="3" class="hidden-sm-and-down ">
+            <div class="sticky">
             	 <adsbygoogle               
 									ad-slot="7370604197"
                   data-ad-format="vertical"							        
 								>           
 								</adsbygoogle>
-  
+           </div>
       </v-col>
     </v-row>
   </div>
@@ -168,6 +170,10 @@ export default {
   max-width:100% !important;
   height:auto !important;
 }
-
+.sticky {
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 60px!important;
+}
 
 </style>
