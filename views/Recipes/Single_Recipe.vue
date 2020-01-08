@@ -129,9 +129,15 @@
 			</v-row>
 		</v-col>
 		
-		<v-col class="pa-5 pt-3">
+		<v-col class="pa-5 pt-3 hidden-sm-and-down">
 				<!-- <v-img  src="../../../static/images/big_rec.jpg" alt="" width="100%"></v-img> -->
-				<img  src="../../static/images/big_rec.jpg" alt="" width="100%">
+				<!-- <img  src="../../static/images/big_rec.jpg" alt="" width="100%">
+				 -->
+				 	 <adsbygoogle               
+									ad-slot="3284019521"	
+                  data-ad-format="vertical"			          
+						 >           
+						 </adsbygoogle>
 
 		</v-col> 
 			
