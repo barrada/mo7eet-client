@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- top ad -->
     <v-row>
       <v-col cols="12" lg="12" md="12" sm="12" class="hidden-md-and-up" style="height:120px;max-height:120px">
              <adsbygoogle
@@ -11,7 +12,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col md="2" lg="3" class="hidden-sm-and-down text-left"> 
+      <v-col md="2" lg="3" class="hidden-sm-and-down text-left sticky"> 
           	 <adsbygoogle               
 									ad-slot="3284019521"	
                   data-ad-format="vertical"			          
@@ -64,7 +65,7 @@
           {{post.body}}
     </div>
         </v-col>
-          <v-col md="2" lg="3" class="hidden-sm-and-down">
+          <v-col md="2" lg="3" class="hidden-sm-and-down sticky">
             	 <adsbygoogle               
 									ad-slot="7370604197"
                   data-ad-format="vertical"							        
@@ -165,7 +166,12 @@ export default {
 #article img{
   width:100% !important;
   max-width:100% !important;
-  height:auto !important
+  height:auto !important;
+}
+.sticky {
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 60px;
 }
 
 </style>
