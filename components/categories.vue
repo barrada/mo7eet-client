@@ -210,7 +210,7 @@
  الأبوة والأمومة </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
- <v-list-item @click="">
+ <v-list-item :to="{name:'photography'}" @click="">
           <v-list-item-action>
             <v-icon color="orange">camera_alt</v-icon>
           </v-list-item-action>
