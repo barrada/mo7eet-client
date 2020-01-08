@@ -6,6 +6,7 @@ import home from '~/components/HelloWorld'
 import sports from '~/views/Sports.vue'
 import games from '~/views/Games.vue'
 import technology from '~/views/Technology.vue'
+import travel from '~/views/Travel.vue'
 import recipes from '~/views/Recipes/Recipes.vue'
 import ME_Recipes from '~/views/Recipes/ME_Recipes.vue'
 import Single_Recipe from '~/views/Recipes/Single_Recipe.vue'
@@ -47,6 +48,15 @@ export function createRouter() {
 				component: () =>
 					// import(/* webpackChunkName: "about" */ "./views/Sports.vue"),
 					technology,
+					// props:true,
+					props:(route) => ({ page: route.query.p })
+			},
+			{
+				path: "/السفر",
+				name: "travel",     
+				component: () =>
+					// import(/* webpackChunkName: "about" */ "./views/Sports.vue"),
+					travel,
 					// props:true,
 					props:(route) => ({ page: route.query.p })
 			},

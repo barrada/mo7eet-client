@@ -74,7 +74,7 @@
  الصور المتحركة </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
- <v-list-item @click="">
+ <v-list-item :to="{name:'travel'}" @click="">
           <v-list-item-action>
             <v-icon color="orange">card_travel</v-icon>
           </v-list-item-action>

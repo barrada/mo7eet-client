@@ -430,7 +430,7 @@ created(){
 	
 },head(){
 	return{
-		title: 'العاب'
+		title: 'تكنولوجيا'
 	}
 }
 }
