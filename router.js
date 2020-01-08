@@ -76,7 +76,7 @@ export function createRouter() {
 				name: "photography",     
 				component: () =>
 					// import(/* webpackChunkName: "about" */ "./views/Sports.vue"),
-					fashion,
+					photography,
 					// props:true,
 					props:(route) => ({ page: route.query.p })
 			},
