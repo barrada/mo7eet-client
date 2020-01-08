@@ -168,10 +168,6 @@ export default {
   max-width:100% !important;
   height:auto !important;
 }
-.sticky {
-	position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 60px;
-}
+
 
 </style>
