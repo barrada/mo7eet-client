@@ -128,8 +128,8 @@
 				</v-col>
 			</v-row>
 		</v-col>
-		
-		<v-col class="hidden-sm-and-down">
+		<!-- left col -->
+		<v-col md="2" lg="3" class="hidden-sm-and-down sticky">
 				<!-- <v-img  src="../../../static/images/big_rec.jpg" alt="" width="100%"></v-img> -->
 				<!-- <img  src="../../static/images/big_rec.jpg" alt="" width="100%">
 				 -->
@@ -207,7 +207,11 @@ padding:2px 25px;
 }
 v-items-list {
 	list-style-position: outside;
-	margin-right:-24px
+	margin-right:-24px;
 }
-
+.sticky {
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
 </style>
