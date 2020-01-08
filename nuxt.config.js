@@ -64,12 +64,32 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    '@nuxtjs/sitemap',
     // google adsense
     ['@nuxtjs/google-adsense', {
       id: 'ca-pub-1951746776327943'
     }]
     
   ],
+  /*
+  Sitemap
+  */
+ sitemap: {
+    hostname: 'https://mo7eet.com',
+    gzip: true,
+    exclude: [    
+      '/mtadmin/**'
+    ],
+    routes: [
+      '/:title',
+      '/رياضه',
+      '/وصفات',
+      '/العاب',
+      '/طهي/طريقه-عمل/:title',
+
+    ]
+
+ },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
