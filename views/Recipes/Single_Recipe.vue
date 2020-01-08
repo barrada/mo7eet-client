@@ -129,7 +129,7 @@
 			</v-row>
 		</v-col>
 		
-		<v-col class="pa-5 pt-3 hidden-sm-and-down">
+		<v-col class="hidden-sm-and-down">
 				<!-- <v-img  src="../../../static/images/big_rec.jpg" alt="" width="100%"></v-img> -->
 				<!-- <img  src="../../static/images/big_rec.jpg" alt="" width="100%">
 				 -->
