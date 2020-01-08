@@ -146,7 +146,7 @@
  النقاش </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
- <v-list-item @click="">
+ <v-list-item :to="{name:'fashion'}" @click="">
           <v-list-item-action>
             <v-icon color="orange">pregnant_woman</v-icon>
           </v-list-item-action>
