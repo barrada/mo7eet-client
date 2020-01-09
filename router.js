@@ -7,6 +7,7 @@ import sports from '~/views/Sports.vue'
 import games from '~/views/Games.vue'
 import technology from '~/views/Technology.vue'
 import travel from '~/views/Travel.vue'
+import news from '~/views/News.vue'
 import fashion from '~/views/Fashion.vue'
 import photography from '~/views/Photography.vue'
 import recipes from '~/views/Recipes/Recipes.vue'
@@ -59,6 +60,15 @@ export function createRouter() {
 				component: () =>
 					// import(/* webpackChunkName: "about" */ "./views/Sports.vue"),
 					travel,
+					// props:true,
+					props:(route) => ({ page: route.query.p })
+			},
+			{
+				path: "/أخبار",
+				name: "news",     
+				component: () =>
+					// import(/* webpackChunkName: "about" */ "./views/Sports.vue"),
+					news,
 					// props:true,
 					props:(route) => ({ page: route.query.p })
 			},
