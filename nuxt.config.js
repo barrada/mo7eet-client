@@ -17,7 +17,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'محيط - اكتشف الجديد و أفضل المقالات ومقاطع الفيديو' },
-      { hid: 'keywords', name: 'keywords', content: 'مقالات, فيديو, رياضه, وصفات طبخ, تكنولوجيا, فوتوغرافيا, موسيقى, أخبار, كتب, موضة, فن, سفر ' },
+      { hid: 'keywords', name: 'keywords', content: 'مقالات, فيديو, رياضه, وصفات طبخ, تكنولوجيا, فوتوغرافيا, موسيقى, أخبار, كتب, موضة, فن, سفر' },
       { hid:'name',name:'title', itemprop: 'title', content:'محيط'},
       { hid:'image',name:'image', itemprop: 'image', content:'https://mo7eet.com/logo.png'},
       { hid:'og:description',name:'og:description', property: 'og:description', 'محيط - اكتشف الجديد و أفضل المقالات ومقاطع الفيديو'},
