@@ -25,7 +25,7 @@
         <v-list-item-title>العاب</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item to="/أخبار" @click>
+    <v-list-item :to="{name:'news'}" @click>
       <v-list-item-action>
         <v-icon color="orange">library_books</v-icon>
       </v-list-item-action>
