@@ -16,10 +16,21 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'محيط - اكتشف الجديد و أفضل المقالات ومقاطع الفيديو' },
+      { hid: 'keywords', name: 'keywords', content: 'مقالات, فيديو, رياضه, وصفات طبخ, تكنولوجيا, فوتوغرافيا, موسيقى, أخبار, كتب, موضة, فن, سفر ' },
+      { hid:'name',name:'title', itemprop: 'title', content:'محيط'},
+      { hid:'image',name:'image', itemprop: 'image', content:'https://mo7eet.com/logo.png'},
+      { hid:'og:description',name:'og:description', property: 'og:description', 'محيط - اكتشف الجديد و أفضل المقالات ومقاطع الفيديو'},
+      { hid:'og:url',name:'og:url', property: 'og:url', content:'https://mo7eet.com'},
+      { hid:'og:image',name:'og:image', property: 'og:image', content:'https://mo7eet.com/logo.png'},
+      { hid:'twitter:card',name:'twitter:card', content:'summary_large_image'},
+      { hid:'twitter:title',name:'twitter:title', content:'محيط'},
+      { hid:'twitter:description',name:'twitter:description', 'محيط - اكتشف الجديد و أفضل المقالات ومقاطع الفيديو'},
+      { hid:'twitter:image',name:'twitter:image', content:'https://mo7eet.com/logo.png'},
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },    
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel:'canonical',href:'https://mo7eet.com'}    
     ]
   },
   /*
