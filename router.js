@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import home from '~/components/Home'
+import home from '~/views/Home.vue'
 // import home from  '~/views/Recipes/Recipes.vue'
 import sports from '~/views/Sports.vue'
 import games from '~/views/Games.vue'
