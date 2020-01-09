@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import home from '~/components/HelloWorld'
+import home from '~/components/Home'
 // import home from  '~/views/Recipes/Recipes.vue'
 import sports from '~/views/Sports.vue'
 import games from '~/views/Games.vue'
@@ -33,7 +33,11 @@ export function createRouter() {
       {
 				path: '/',
 				name:'home',
-        component: home
+        component: () =>
+					// import(/* webpackChunkName: "about" */ "./views/Sports.vue"),
+					home,
+					// props:true,
+					props:(route) => ({ page: route.query.p })
 			},
 			{
 				path: "/رياضه",
