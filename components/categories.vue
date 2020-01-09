@@ -33,12 +33,12 @@
         <v-list-item-title>أخبار</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item @click>
+    <v-list-item :to="{name:'movies'}" @click>
       <v-list-item-action>
         <v-icon color="orange">tv</v-icon>
       </v-list-item-action>
       <v-list-item-content>
-        <v-list-item-title>التلفزيون</v-list-item-title>
+        <v-list-item-title>أفلام و مسلسلات</v-list-item-title>
       </v-list-item-content>
     </v-list-item>    
     <v-list-item :to="{name:'travel'}" @click>
@@ -57,23 +57,23 @@
         <v-list-item-title>تكنولوجيا</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item @click>
+    <v-list-item :to="{name:'music'}" @click>
       <v-list-item-action>
         <v-icon color="orange">library_music</v-icon>
       </v-list-item-action>
       <v-list-item-content>
-        <v-list-item-title>الموسيقى</v-list-item-title>
+        <v-list-item-title>موسيقى</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item @click>
+    <v-list-item :to="{name:'art'}" @click>
       <v-list-item-action>
         <v-icon color="orange">format_paint</v-icon>
       </v-list-item-action>
       <v-list-item-content>
-        <v-list-item-title>الفن والتصميم</v-list-item-title>
+        <v-list-item-title>فنون</v-list-item-title>
       </v-list-item-content>
     </v-list-item> 
-    <v-list-item @click>
+    <v-list-item :to="{name:'books'}"  @click>
       <v-list-item-action>
         <v-icon color="orange">menu_book</v-icon>
       </v-list-item-action>
@@ -89,7 +89,7 @@
         <v-list-item-title>الموضة</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item @click>
+    <v-list-item :to="{name:'business'}" @click>
       <v-list-item-action>
         <v-icon color="orange">business</v-icon>
       </v-list-item-action>
@@ -98,7 +98,7 @@
       </v-list-item-content>
     </v-list-item>
 
-    <v-list-item @click>
+    <v-list-item :to="{name:'health'}" @click>
       <v-list-item-action>
         <v-icon color="orange">fitness_center</v-icon>
       </v-list-item-action>
@@ -106,22 +106,14 @@
         <v-list-item-title>الصحة واللياقة</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item @click>
+    <v-list-item :to="{name:'crafts'}" @click>
       <v-list-item-action>
         <v-icon color="orange">school</v-icon>
       </v-list-item-action>
       <v-list-item-content>
-        <v-list-item-title>التعلم</v-list-item-title>
+        <v-list-item-title>حرف</v-list-item-title>
       </v-list-item-content>
-    </v-list-item> 
-    <v-list-item @click>
-      <v-list-item-action>
-        <v-icon color="orange">people</v-icon>
-      </v-list-item-action>
-      <v-list-item-content>
-        <v-list-item-title>الأسرة</v-list-item-title>
-      </v-list-item-content>
-    </v-list-item>
+    </v-list-item>     
     <v-list-item :to="{name:'photography'}" @click>
       <v-list-item-action>
         <v-icon color="orange">camera_alt</v-icon>
@@ -131,7 +123,7 @@
       </v-list-item-content>
     </v-list-item>
    
-    <v-list-item @click>
+    <v-list-item :to="{name:'video'}" @click>
       <v-list-item-action>
         <v-icon color="orange">ondemand_video</v-icon>
       </v-list-item-action>
