@@ -25,7 +25,7 @@
 							<v-card
 									:id="`post-${this.featured[0].id}`"
 									class="mx-auto  fill-height d-flex flex-wrap"
-									style=""
+									style="max-height:400px"
 									:to="{name:'article',params:{slug:this.featured[0].slug}}"
 											   								
 							>
