@@ -97,7 +97,7 @@ export default {
     
     console.log(gallery)
    
-    return { post: data[0], gallery: gallery,title:data[0].title,bodySEO:data[0].body,tags:data[0].tags,descritpion:data[0].body.substring(0,100) + '...',thumbnail:data[0].thumbnail,url:url,date:data[0].post_date,keywords:data[0].keywords };
+    return { post: data[0], gallery: gallery,title:data[0].title,bodySEO:data[0].body,tags:data[0].tags,excert:data[0].body.excert(0,100) + '...',descritpion:data[0].body.substring(0,100) + '...',thumbnail:data[0].thumbnail,url:url,date:data[0].post_date,keywords:data[0].keywords };
   },
   data() {
     return {     
@@ -114,17 +114,17 @@ export default {
     return{
       title:this.title,
       meta:[
-         { hid: 'description', name: 'description', content: this.descritpion },
+         { hid: 'description', name: 'description', content: this.excert },
          { hid: 'keywords', name: 'keywords', content: this.tags },
          { hid:'name',name:'title', itemprop: 'title', content:this.title},
-         { hid:'description',description:'description', itemprop: 'description', content: this.descritpion},
+         { hid:'description',description:'description', itemprop: 'description', content: this.excert},
          { hid:'image',name:'image', itemprop: 'image', content:this.thumbnail},
-         { hid:'og:description',name:'og:description', property: 'og:description', content:this.descritpion},
+         { hid:'og:description',name:'og:description', property: 'og:description', content:this.excert},
          { hid:'og:url',name:'og:url', property: 'og:url', content:this.url},
          { hid:'og:image',name:'og:image', property: 'og:image', content:this.thumbnail},
          { hid:'twitter:card',name:'twitter:card', content:'summary_large_image'},
          { hid:'twitter:title',name:'twitter:title', content:this.title},
-         { hid:'twitter:description',name:'twitter:description', content:this.descritpion},
+         { hid:'twitter:description',name:'twitter:description', content:this.excert},
          { hid:'twitter:image',name:'twitter:image', content:this.thumbnail},
       ],
       link:[
