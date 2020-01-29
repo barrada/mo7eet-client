@@ -35,7 +35,7 @@
           class="text-left"
           :link="this.$route.path"
           :ptitle="post.title"
-          :pdesc="post.body.substring(0,100)"
+          :pdesc="post.excert.substring(0,100)"
           :tags="post.tags"
         ></share>
       </v-col>
