@@ -120,6 +120,7 @@ export default {
          { hid:'description',description:'description', itemprop: 'description', content: this.excert},
          { hid:'image',name:'image', itemprop: 'image', content:this.thumbnail},
          { hid:'og:description',name:'og:description', property: 'og:description', content:this.excert},
+         { hid:'og:title',name:'og:title', property: 'og:title', content:this.title},
          { hid:'og:url',name:'og:url', property: 'og:url', content:this.url},
          { hid:'og:image',name:'og:image', property: 'og:image', content:this.thumbnail},
          { hid:'twitter:card',name:'twitter:card', content:'summary_large_image'},
