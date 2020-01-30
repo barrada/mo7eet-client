@@ -2,7 +2,7 @@
 	<social-sharing :url="url"
                       :title="ptitle"
                       :description="pdesc"
-                      quote="ptitle"
+                      :quote="ptitle"
                       :hashtags="tags"
                       twitter-user=""
                       inline-template
