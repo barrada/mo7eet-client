@@ -398,7 +398,7 @@ methods:{
         }).href
 		},
 	infiniteHandler($state){
-		this.$axios.$get('https://mo7eet-server.herokuapp.com/api/posts/home',{params:{page:this.page}}).then((response=>{
+		this.$axios.$get('https://mo7eet-server.herokuapp.com/api/posts/news',{params:{page:this.page}}).then((response=>{
 			if (this.page <= response.pageCount) {
 						this.$router.push({path: this.$route.path, query: {p: this.page}})
 						this.page += 1;
