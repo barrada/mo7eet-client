@@ -372,7 +372,7 @@ export default{
 			// const ip = await $axios.$get('http://icanhazip.com')
 			// const data= await $axios.$get('https://mo7eet-server.herokuapp.com/api/posts/recipes',{params:{page:page}})
 			// return { ip,featured:data.featured,data:data.data,pageCount:data.pageCount }
-			const data= await $axios.$get('https://mo7eet-server.herokuapp.com/api/posts/home')
+			const data= await $axios.$get('https://mo7eet-server.herokuapp.com/api/posts/news')
 			let featured=data.featured
 			let restfeat=data.featured.slice(0)
 			restfeat.splice(0,1)	
